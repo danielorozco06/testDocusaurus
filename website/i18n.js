@@ -7,51 +7,17 @@
 
 // The top-30 locales on Crowdin are enabled
 // but we enable only a subset of those
-const locales = [
-  'en',
-  'ja',
-  'es-ES',
-  'fr',
-  'pt-BR',
-  'ro',
-  'ru',
-  'uk',
-  'zh-Hans',
-];
+const locales = ["en"];
 
 const localeConfigs = {
   en: {
-    label: 'English',
-  },
-  ja: {
-    label: '日本語',
-  },
-  'es-ES': {
-    label: 'Español',
-  },
-  fr: {
-    label: 'Français',
-  },
-  'pt-BR': {
-    label: 'Português (Brasil)',
-  },
-  ro: {
-    label: 'Română',
-  },
-  ru: {
-    label: 'Русский',
-  },
-  uk: {
-    label: 'Українська',
-  },
-  'zh-Hans': {
-    label: '简体中文',
+    label: "English",
   },
 };
 
 // Docusaurus 2 i18n config
 module.exports = {
-  defaultLocale: 'en',
+  defaultLocale: "en",
   locales,
   localeConfigs,
 };
