@@ -16,11 +16,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-node@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: yarn
-          path: ./website
+          cache: "yarn"
+          cache-dependency-path: "website/yarn.lock"
+        working-directory: website
 
       - name: Install dependencies
         working-directory: ./website
