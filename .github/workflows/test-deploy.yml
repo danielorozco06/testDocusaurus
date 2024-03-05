@@ -22,7 +22,6 @@ jobs:
           node-version: 18
           cache: "yarn"
           cache-dependency-path: "website/yarn.lock"
-        working-directory: website
 
       - name: Install dependencies
         working-directory: ./website
