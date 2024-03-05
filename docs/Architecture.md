@@ -5,7 +5,7 @@ title: Architecture
 
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 
-If you are interested in learning more about how Jest works, understand its architecture, and how Jest is split up into individual reusable packages, check out this video:
+If you are interested in learning more about how Jest works, understand its architecture, and how Jest is split up into individual reusable packages, check out this video :
 
 <LiteYouTubeEmbed id="3YDiloj8_d0" />
 
