@@ -19,8 +19,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
-          working-directory: ./website
           cache: yarn
+          path: ./website
 
       - name: Install dependencies
         working-directory: ./website
