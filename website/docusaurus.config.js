@@ -38,6 +38,7 @@ const config = {
   baseUrl: "/",
   projectName: "danielorozco06.github.io",
   organizationName: "danielorozco06",
+  trailingSlash: false,
   favicon: "img/favicon/favicon.ico",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
