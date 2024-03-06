@@ -75,7 +75,7 @@ const config = {
             }
             return `https://github.com/jestjs/jest/edit/main/website/${versionDocsDirPath}/${docPath}`;
           },
-          path: "../docs",
+          path: "./docs",
           sidebarPath: path.resolve(__dirname, "./sidebars.json"),
           remarkPlugins: [
             [require("@docusaurus/remark-plugin-npm2yarn"), { sync: true }],
