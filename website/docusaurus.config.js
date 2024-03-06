@@ -28,18 +28,34 @@ const localeMapping = new Map(
   )
 );
 
+// Usually your GitHub org/user name.
+const organizationName = "danielorozco06";
+
+// Usually your repo name.
+const projectName = "testDocusaurus";
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   i18n,
   title: "Jest",
   titleDelimiter: "·",
   tagline: "🃏 Delightful JavaScript Testing",
-  url: "https://danielorozco06.github.io",
-  baseUrl: "/",
-  projectName: "danielorozco06.github.io",
-  organizationName: "danielorozco06",
-  trailingSlash: false,
   favicon: "img/favicon/favicon.ico",
+
+  // Set the production url of your site here
+  url: `https://${organizationName}.github.io`,
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  baseUrl: `/${projectName}/`,
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName,
+  projectName,
+
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  trailingSlash: false,
+
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   presets: [
